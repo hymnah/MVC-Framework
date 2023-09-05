@@ -1,0 +1,6 @@
+2023-09-04 00:00:13: Message => Declared parameter doesn't match the injected
+2023-09-04 00:00:13: Route => "/test/test"
+2023-09-04 00:00:13: Trace => #0 C:\xampp\htdocs\framework_clean\lib\Core\Services.php(13): Core\Services::register()
+2023-09-04 00:00:13: Trace => #1 C:\xampp\htdocs\framework_clean\web\app.php(26): Core\Services::setup()
+2023-09-04 00:00:13: Trace => #2 C:\xampp\htdocs\framework_clean\web\app.php(32): Framework::boot()
+2023-09-04 00:00:13: Trace => #3 {main}

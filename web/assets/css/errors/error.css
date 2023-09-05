@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "system-ui", sans-serif;
+}
+
+.error-header-403 {
+    text-align: center;
+    background-color: #ff9800;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.error-header-404 {
+    text-align: center;
+    background-color: #009688;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.error-header-500 {
+    text-align: center;
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 30px 0;
+}

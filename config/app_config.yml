@@ -1,0 +1,27 @@
+#Application Environment
+app_env: dev
+
+#Controllers and Methods
+controller_suffix: Controller
+method_suffix: Action
+
+#Logs
+logs:
+    log_dir: ../logs
+    log_file:
+        error: error.log
+        debug: debug.log
+
+#Database
+database:
+    server: localhost
+    name: test
+    user: root
+    password: ''
+
+#DateTime
+time_zone: Asia/Manila
+
+
+import:
+    - custom_config.yml

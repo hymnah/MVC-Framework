@@ -1,0 +1,4 @@
+routes_login:
+    route: /login
+    controller: login
+    method: login

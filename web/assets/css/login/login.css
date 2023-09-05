@@ -1,0 +1,70 @@
+.body-main {
+    height: 100%;
+}
+
+.form-wrap {
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-wrap input,
+.form-wrap select,
+.form-wrap textarea {
+    width: 100%;
+    height: 40px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+}
+
+.form-wrap input {
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+    outline: none;
+}
+
+.ph {
+    position:absolute;top: 10px;opacity: 0;
+}
+
+.form-wrap input:focus + .ph {
+    top: -10px;
+    opacity: 1;
+}
+
+.form-wrap button {
+    height: 30px;
+    min-width: 70px;
+    float: right;
+    border: none;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.form-wrap button:hover {
+    background-color: #dddddd;
+}
+
+.field-wrap {
+    position: relative;
+}
+
+.field-icon {
+    cursor: pointer;
+    color: #aaaaaa;
+}
+
+.icon-right {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.center-div {
+    margin: 0 auto;
+    max-width: 750px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

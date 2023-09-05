@@ -1,0 +1,21 @@
+\Test\Test:
+    test_field:
+        not_blank:
+            message: Cannot be empty
+        length:
+            min: 2
+            min_message: Cannot be less than {{ min }}
+            max: 5
+            max_message: Cannot be greater than {{ max }}
+        value:
+            min: 100
+            max: 200
+
+    test_field_2:
+        not_blank:
+        length:
+            min: 3
+            max: 5
+        value:
+            min: 50
+            max: 100

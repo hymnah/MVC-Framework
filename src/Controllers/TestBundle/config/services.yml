@@ -1,0 +1,6 @@
+service.test_service:
+    src: Test\TestService
+    args:
+        - auto
+        - '%sample%'
+

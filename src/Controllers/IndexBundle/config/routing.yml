@@ -1,0 +1,4 @@
+routes_index:
+    route: /
+    controller: index
+    method: index

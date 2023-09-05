@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Nunito-Regular;
+    src: url(/assets/fonts/googlefonts/NunitoSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito-Regular, System UI, serif;
+}
+
+html, body {
+    height: 100%;
+    color: #242318;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sec {
+    width: 100%;
+    display: block;
+    overflow: auto;
+    padding: 10px;
+}
+
+.sec::after {
+    content: '';
+    clear: both;
+}
+
+[class*=sec-] {
+    float: left;
+    padding: 10px;
+}
+
+.sec-1 {
+    width: 8.33%;
+}
+
+.sec-2 {
+    width: 16.66%;
+}
+
+.sec-3 {
+    width: 25%;
+}
+
+.sec-4 {
+    width: 33.32%;
+}
+
+.sec-5 {
+    width: 41.65%;
+}
+
+.sec-6 {
+    width: 50%;
+}
+
+.sec-7 {
+    width: 58.31%;
+}
+
+.sec-8 {
+    width: 66.64%;
+}
+
+.sec-9 {
+    width: 74.97%;
+}
+
+.sec-10 {
+    width: 83.3%;
+}
+
+.sec-11 {
+    width: 91.63%;
+}
+
+.sec-12 {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    [class*=sec-] {
+        /*float: none;*/
+        width: 100%;
+    }
+}

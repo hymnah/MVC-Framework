@@ -1,0 +1,9 @@
+routes_test_index:
+    route: /test/test
+    controller: test
+    method: test
+
+routes_test_add:
+    route: test/add/{id:\d+$}
+    controller: test
+    method: add

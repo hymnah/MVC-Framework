@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+DirectoryIndex app.php
+
+Options +FollowSymLinks
+Options -Indexes
+
+RewriteEngine on
+
+#RewriteBase /
+#RewriteRule (.*)assets/(.*)$ web/assets/$2 [NC,L]
+
+ErrorDocument 403 /errors.php?code=403
+ErrorDocument 404 /errors.php?code=404
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ app.php [NC,L,QSA]
+
+
+
+
+</IfModule>
